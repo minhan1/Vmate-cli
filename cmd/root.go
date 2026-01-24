@@ -292,7 +292,7 @@ func expandPath(path string) (string, error) {
 
 func checkIncompatibleFlags(current string, verboseAllow bool) bool {
 	conditions := []bool{
-		dir != "~/Downloads", // Updated check to match new default
+		dir != "~/Downloads/ovpnconfig", // Updated check to match new default
 		verbose,
 		maxworkers != 200,
 		limit != 100,
